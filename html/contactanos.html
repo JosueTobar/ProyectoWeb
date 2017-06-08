@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>TopStore</title>
+	<link rel="stylesheet" type="text/css" href="../css/Stilo.css">
+	<link rel="stylesheet" type="text/css" href="../css/formulario.css">
+	
+
+</head>
+<body>
+	
+	<header> 
+
+	<div class="contenedor">
+		
+		<h1>TopStore</h1>
+		<img src="../img/icon/001-carretilla.png">
+		<input type="checkbox" id="menu-bar">
+		<label for="menu-bar"> <img src="../img/icon/menu.png" > </label>
+		
+	<nav class="menu"> 
+
+	<ul>
+				<li><a href="#"> <img src="../img/icon/019-casa.png" ><br> Inicio</a></li>
+				<li class="submenu"><a href="#"> <img src="../img/icon/007-placa-madre-1.png" > <br>Productos</a>
+							<ul >
+								<li><a href="#" > <img src="../img/icon/pantallas.png">  Pantallas  </a></li>
+								<li><a href="#" > <img src="../img/icon/006-memoria-ram.png"> Ram </a></li>
+								<li><a href="#" > <img src="../img/icon/011-tarjeta-grafica.png"> Gaficas  </a></li>
+								<li><a href="#" > <img src="../img/icon/007-placa-madre-1.png"> Motherboards </a></li>
+								<li><a href="#" >  <img src="../img/icon/013-disco-duro.png"> Disco Duros </a></li>
+							</ul>
+				</li>
+				<li class="submenu" ><a href="#"> <img src="../img/icon/003-carro-de-la-compra-1.png" > <br>Promociones</a>	
+		
+							<ul >
+								<li><a href="#" > items </a></li>
+								<li><a href="#" > items </a></li>
+								<li><a href="#" > items </a></li>
+							</ul>
+				</li>
+				<li><a href="#"> <img src= "../img/icon/conocenos.png"> <br>Conosenos</a></li>
+				<li><a href="#"> <img src="../img/icon/017-pantalla-de-tv.png" > <br> Contactanos</a></li>			
+	</ul>	
+		</nav>	
+	</div>
+	</header>
+
+<main>
+			
+		<section id="banner">
+
+		 		<img src="../img/banner.png">	
+				
+		</section>
+
+		<section id="formulario"> 
+				<form name="efren-martinez" id="efren-martinez-form" method="post" action="contact.php">
+		<div id="wrapping" class="clearfix">
+			<section id="aligned">
+			<input type="text" name="name" id="name" placeholder="Nombre" autocomplete="off" tabindex="1" class="txtinput">
+			<input type="email" name="email" id="email" placeholder="E-mail" autocomplete="off" tabindex="2" class="txtinput">
+			<input type="text" name="website" id="website" placeholder="Website URL" autocomplete="off" tabindex="3" class="txtinput">
+			<input type="tel" name="telephone" id="telephone" placeholder="WhatsApp (optional)" tabindex="4" class="txtinput">
+			<textarea name="message" id="message" placeholder="Cómo es tu proyecto ?" tabindex="5" class="txtblock"></textarea>
+			</section>
+			<section id="aside" class="clearfix">
+				<section id="recipientcase">
+				<h3>Asunto:</h3>
+					<select id="asunto" name="recipient" tabindex="6" class="selmenu">
+  						<option value="rediseño">Rediseño</option>
+  						<option value="programacion">Programacion</option>
+  						<option value="desarrollo">Desarrollo</option>
+  						<option value="aplicaciones">Aplicaciones</option>
+					</select>
+				</section>
+				<section id="prioritycase">
+					<h3>Prioridad:</h3>
+					<span class="radiobadge">
+						<input type="radio" id="low" name="priority" value="baja">
+						<label for="low">Baja</label>
+					</span>
+					<span class="radiobadge">
+						<input type="radio" id="med" name="priority" value="media" checked="checked">
+						<label for="med">Media</label>
+					</span>
+					<span class="radiobadge">
+						<input type="radio" id="high" name="priority" value="alta">
+						<label for="high">Alta</label>
+					</span>
+				</section>
+			</section>
+		</div>
+		<section id="buttons">
+			<input type="reset" name="reset" id="resetbtn" class="resetbtn" value="Reset">
+			<input type="submit" name="submit" id="submitbtn" class="submitbtn" tabindex="7" value="Enviar !">
+			<br style="clear:both;">
+		</section>
+		</form>
+	
+
+
+
+		</section>			
+		
+</main>
+	
+</body>
+</html>

@@ -1,0 +1,89 @@
+
+.formulario{
+
+	margin-left: 20%
+}
+
+#efren-martinez-form { box-sizing: border-box; 
+}
+#efren-martinez-form .txtinput { display: block; border-style: solid; border-width: 1px; border-color: #dedede; margin-bottom: 20px; font-size: 1.2em; padding:2px 8px 10px 55px; width: 90%; color: #777; font-family: "Raleway", sans-serif; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset; transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+}
+#efren-martinez-form .txtinput:focus {  color: #333; border-color: rgba(41, 92, 161, 0.4); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 3px rgba(41, 92, 161, 0.6); outline: 0 none; 
+}
+#efren-martinez-form input#name { background: #fff url('user.png') 5px 4px no-repeat;
+}
+#efren-martinez-form input#email { background: #fff url('email.png') 5px 4px no-repeat;
+}
+#efren-martinez-form input#website { background: #fff url('website.png') 5px 4px no-repeat;
+}
+#efren-martinez-form input#telephone { background: #fff url('phone.png') 5px 4px no-repeat;
+}
+#efren-martinez-form textarea { display: block; font-family: "Raleway", sans-serif; border-style: solid; border-width: 1px; border-color: #dedede; margin-bottom: 15px; font-size: 1.2em; padding: 11px 25px; padding-left: 55px; width: 86%; height: 120px; color: #777; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset; transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+}
+#efren-martinez-form textarea:focus { color: #333; border-color: rgba(41, 92, 161, 0.4); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 3px rgba(40, 90, 160, 0.6); outline: 0 none; 
+}
+#efren-martinez-form textarea.txtblock { background: #fff url('speech.png') 5px 4px no-repeat;
+}
+#efren-martinez-form #aligned { box-sizing: border-box;  float: left;  width: 450px; margin-right: 50px; 
+}
+#efren-martinez-form #aside { float: left; width: 250px; text-align:left; padding: 0; box-sizing: border-box;
+}
+#wrapping { width: 100%; box-sizing: border-box; 
+}
+span.radiobadge { display: block; margin-bottom: 8px; 
+}
+span.radiobadge label { font-size: 1.2em; padding-bottom: 4px;
+ }
+select.selmenu { font-size: 17px; color: #676767; padding: 9px !important; border: 1px solid #aaa; width: 200px;
+}
+/** custom buttons **/
+#buttons { display: block; padding-top: 10px; font-family: "Raleway", sans-serif; padding-bottom:20px; 
+}
+#buttons #resetbtn { display: block; float: left; color: #515151; text-shadow: -1px 1px 0px #fff; margin-right: 20px; height: 2em; padding: 0 1em; outline: 0; font-weight: bold; font-size: 1em; white-space: nowrap; word-wrap: normal; vertical-align: middle; cursor: pointer; border-radius: 2px; background-color: #fff;
+}
+#buttons #resetbtn:hover { text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); color: #818181; background-color: #fff; 
+}
+#buttons #submitbtn { display: block; float: left; height: 2em; padding: 0 1em; border: 1px solid; outline: 0; font-weight: bold; font-size: 1em; color:  #fff; text-shadow: 0px 1px 0px #222; white-space: nowrap; word-wrap: normal; vertical-align: middle; cursor: pointer; border-radius: 2px; border-radius: 2px; border-color: #5e890a #5e890a #000; box-shadow: inset 0 1px 0 rgba(256,256,256, .35); background-color: rgb(44,214,31);
+}
+#buttons #submitbtn:hover, #buttons #submitbtn:active { border-color: #7c9826 #7c9826 #000; color: #000; box-shadow: inset 0 1px 0 rgba(256,256,256,0.4),0 1px 3px rgba(0,0,0,0.5); background: rgb(228,237,189);
+}
+/** @group clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+/** all devices and responsive browser windows **/
+@media screen and (max-width: 800px) {
+	#container { width: 100%;
+	}
+	#efren-martinez-form #aligned { width: 100%; float: none; display: block;
+	}
+	#efren-martinez-form #aside { width: 100%; display: block; float: none;
+	}
+	#efren-martinez-form .txtinput, #efren-martinez-form textarea { width: 85%;
+	}
+	#prioritycase { float: left; display: block;
+	}
+	#recipientcase { float: left; display: block; margin-right: 55px;
+	}
+}
+/* smaller screen dropoff *******/
+@media only screen and (max-width: 550px) {
+ 	#efren-martinez-form .txtinput, #efren-martinez-form textarea { width: 80%;
+	}
+}
+/* iPhone Landscape ********/
+@media only screen and (max-width: 480px) {
+	select.selmenu { width: 190px;
+	}
+}
+/* iPhone portrait *******/
+@media only screen and (max-width: 320px) {
+ 	#efren-martinez-form .txtinput, #efren-martinez-form textarea { width: 70%;
+	}
+	#efren-martinez-form #aligned { overflow: hidden;
+	}
+	select.selmenu { width: 160px;
+	}
+	#recipientcase { margin-right: 30px;
+	}
+}
