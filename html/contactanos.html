@@ -34,7 +34,8 @@
 				</li>
 				<li class="submenu" ><a href="#"> <img src="../img/icon/003-carro-de-la-compra-1.png" > <br>Promociones</a>
 							<ul >
-								<li><a href="#" > <img src="../img/icon/descuento1.png"> liquidacion  </a></li>
+								<li><a href="descuento.html" > <img src="../img/icon/descuento1.png"> liquidacion  </a></li>
+								<li><a href="galeria.html" > <img src="../img/icon/galeria.png"> Galerya </a></li>
 								<li><a href="#" > <img src="../img/icon/002-cartera.png"> Pago En Efectivo </a></li>
 							</ul>
 				</li>
@@ -55,23 +56,23 @@
 
 <main>
 
-		<section id="formulario"> 
+				<section id="formulario"> 
 				<form name="efren-martinez" id="efren-martinez-form" method="post" action="contact.php">
 		<div id="wrapping" class="clearfix">
 			<section id="aligned">
-			<input type="text" name="name" id="name" placeholder="Nombre" autocomplete="off" tabindex="1" class="txtinput">
-			<input type="email" name="email" id="email" placeholder="E-mail" autocomplete="off" tabindex="2" class="txtinput">
-			<input type="text" name="website" id="website" placeholder="Website URL" autocomplete="off" tabindex="3" class="txtinput">
+			<input type="text" name="name" id="name" placeholder="Nombre" autocomplete="off" tabindex="1" class="txtinput" required="Escriba su Nombre Por Favor">
+			<input type="email" name="email" id="email" placeholder="E-mail" autocomplete="off" tabindex="2" class="txtinput" required="Escriba su Correo Electronico">
+			<input type="text" name="website" id="website" placeholder="Website URL" autocomplete="off" tabindex="3" class="txtinput" required="Escriba la Direccion URL">
 			<input type="tel" name="telephone" id="telephone" placeholder="WhatsApp (optional)" tabindex="4" class="txtinput">
-			<textarea name="message" id="message" placeholder="Cómo es tu proyecto ?" tabindex="5" class="txtblock"></textarea>
+			<textarea name="message" id="message" placeholder="Comentario o Sugerencia" tabindex="5" class="txtblock" required="Complete este campo por favor"></textarea>
 			</section>
 			<section id="aside" class="clearfix">
 				<section id="recipientcase">
 				<h3>Asunto:</h3>
 					<select id="asunto" name="recipient" tabindex="6" class="selmenu">
-  						<option value="rediseño">Rediseño</option>
-  						<option value="programacion">Programacion</option>
-  						<option value="desarrollo">Desarrollo</option>
+  						<option value="rediseño">Garantia</option>
+  						<option value="programacion">Venta al Mayoreo</option>
+  						<option value="desarrollo">Reparaciones</option>
   						<option value="aplicaciones">Aplicaciones</option>
 					</select>
 				</section>
@@ -103,7 +104,6 @@
 
 
 		</section>			
-		
 </main>
 	
 </body>
